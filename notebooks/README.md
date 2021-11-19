@@ -4,21 +4,20 @@ Paths and libraries adjusted for [SCC](https://scc-ondemand.bu.edu/)
 
 Run notebooks in the same path as datasets. (/projectnb/ece601/A1-Group5-BrainTumor/dir-brain-tumor/)
 
-Initialize SCC environment by 
+Initialize SCC environment (Python3, pytorch, tensorflow) by 
 
 > source initial.sh
 
-and 
+and add local Python packages (efficientnet_pytorch, ...) search path by
 
 > source set_python_path.sh
 
 # Some parameters
-EXPLORATORY DATA ANALYSIS (EDA)
 1. EDA with Animations and Modeling
 2. Brain Tumor 3D 
 3. Brain Tumor EDA with score
 4. Brain Tumor 3D Multimodal CNN - All MRI Type
-
+EXPLORATORY DATA ANALYSIS (EDA)
 
 ## Test Split
 1. train_test_split(test_size=0.2)
@@ -73,5 +72,5 @@ EXPLORATORY DATA ANALYSIS (EDA)
 * [🧠Brain Tumor🧠 - EDA with Animations and Modeling](https://www.kaggle.com/ihelon/brain-tumor-eda-with-animations-and-modeling)	
 * [🧠Brain Tumor 3D Training](https://www.kaggle.com/ammarnassanalhajali/brain-tumor-3d-training)
 * [Brain Tumor EDA with score](https://www.kaggle.com/blade001/brain-tumor-eda-with-score)
-* [Brain Tumor 3D Multimodal CNN - All MRI Type] (https://www.kaggle.com/michaelfumery/brain-tumor-3d-multimodal-cnn-all-mri-type/)
+* [Brain Tumor 3D Multimodal CNN - All MRI Type](https://www.kaggle.com/michaelfumery/brain-tumor-3d-multimodal-cnn-all-mri-type/)
 * [Meeting Minutes on Google Doc](https://docs.google.com/document/d/1po9hrZAp04lbLL3IngvLaURMMgkMC6j_7K1OG1VMwKI/edit)
