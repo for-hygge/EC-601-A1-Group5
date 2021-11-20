@@ -17,6 +17,7 @@ and add local Python packages (efficientnet_pytorch, ...) search path by
 2. Brain Tumor 3D 
 3. Brain Tumor EDA with score
 4. Brain Tumor 3D Multimodal CNN - All MRI Type
+5. Brain Tumr - Transfer Learning - FLAIR - Kfold
 EXPLORATORY DATA ANALYSIS (EDA)
 
 ## Test Split
@@ -24,48 +25,56 @@ EXPLORATORY DATA ANALYSIS (EDA)
 2. StratifiedKFold(n_split=5,shuffle=True)
 3. train_test_split(test_size=0.2)
 4. StratifiedKFold(n_split=5,shuffle=True)
+5. KFold(n_splits=5,shuffle=True)
 
 ## MRI Technology
 1. FLAIR, T1w, T1wCE
 2. FLAIR
 3. FLAIR, T1w, T1wCE
 4. FLAIR, T1w, T1wCE, T2W
+5. FLAIR
 
 ## Data Sampling
 1. 10 Uniformly distributed slices across the 3D image
 2. 64 centered consecutive image
 3. 10 Uniformly distributed slices across the 3D image
 4. Middle 24 images
+5. Middle 64 images
 
 ## Image resizing
 1. 256x256
 2. 256x256
 3. 256x256
 4. 120x120
+5. 240x240
 
 ## Model
 1. efficientnet-b0
 2. efficientnet in keras?
 3. efficientnet-b0
 4. 4-input CNN model
+5. ResNet50 (LSTM)
 
 ## Optimizer
 1. Adam(lr=0.001)
 2. Adam, learning_rate=lr_schedule, lr_schedule=ExponentialDecay(0.0001,decay_rate=0.96)
 3. Adadelta(lr=0.001)
 4. (default)
+5. adam
 
 ## Criterion
 1. binary_cross_entropy_with_logits
 2. binary_crossentropy
 3. binary_cross_entropy_with_logits
 4. (default)
+5. binary_crossentropy
 
 ## Accuracy (Train/Validate): 
 1.
 2.
 3.
 4. 0.7030
+5. 
 
 # Reference:
 
@@ -73,4 +82,5 @@ EXPLORATORY DATA ANALYSIS (EDA)
 * [🧠Brain Tumor 3D Training](https://www.kaggle.com/ammarnassanalhajali/brain-tumor-3d-training)
 * [Brain Tumor EDA with score](https://www.kaggle.com/blade001/brain-tumor-eda-with-score)
 * [Brain Tumor 3D Multimodal CNN - All MRI Type](https://www.kaggle.com/michaelfumery/brain-tumor-3d-multimodal-cnn-all-mri-type/)
+* [🧠Brain Tumor - Transfert Learning - FLAIR - Kfold](https://www.kaggle.com/michaelfumery/brain-tumor-transfert-learning-flair-kfold)
 * [Meeting Minutes on Google Doc](https://docs.google.com/document/d/1po9hrZAp04lbLL3IngvLaURMMgkMC6j_7K1OG1VMwKI/edit)
