@@ -16,4 +16,4 @@
 ## Content
 * notebooks/
 
-Contains several Jupyter notebooks from other Kaggle competition participants. They are tested on BU SCC (shared computing cluster). Additional resources, like a pretrained network parameters, required by some of the notebooks are uploaded to SCC storage in the specified path. Further explanations are in this [README](https://github.com/YunjieH/EC-601-A1-Group5/blob/main/README.md)
+Contains several Jupyter notebooks from other Kaggle competition participants. They are tested on BU SCC (shared computing cluster). Additional resources, like a pretrained network parameters, required by some of the notebooks are uploaded to SCC storage in the specified path. Further explanations are in this [README](https://github.com/YunjieH/EC-601-A1-Group5/blob/main/notebooks/README.md)
