@@ -5,4 +5,7 @@
       * Tian Tan  tiant@bu.edu
       * Lu Yao  ly21@bu.edu
       * Ruei-Yang Huang  ryh66@bu.edu
+* 0.2
+    * Various bug fixes and optimizations
+    * See [commit change]() or See [release history]()
  
