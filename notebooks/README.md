@@ -18,6 +18,7 @@ and add local Python packages (efficientnet_pytorch, ...) search path by
 3. Brain Tumor EDA with score
 4. Brain Tumor 3D Multimodal CNN - All MRI Type
 5. Brain Tumr - Transfer Learning - FLAIR - Kfold
+6. Monai - ensemble
 EXPLORATORY DATA ANALYSIS (EDA)
 
 ## Test Split
@@ -26,6 +27,7 @@ EXPLORATORY DATA ANALYSIS (EDA)
 3. train_test_split(test_size=0.2)
 4. StratifiedKFold(n_split=5,shuffle=True)
 5. KFold(n_splits=5,shuffle=True)
+6. Exclude 3 sample, train_test_split(test_size=0.2)
 
 ## MRI Technology
 1. FLAIR, T1w, T1wCE
@@ -33,6 +35,7 @@ EXPLORATORY DATA ANALYSIS (EDA)
 3. FLAIR, T1w, T1wCE
 4. FLAIR, T1w, T1wCE, T2W
 5. FLAIR
+6. FLAIR, T1w, T1wCE, T2W
 
 ## Data Sampling
 1. 10 Uniformly distributed slices across the 3D image
@@ -54,6 +57,7 @@ EXPLORATORY DATA ANALYSIS (EDA)
 3. efficientnet-b0
 4. 4-input CNN model
 5. ResNet50 (LSTM)
+6. DenseNet121
 
 ## Optimizer
 1. Adam(lr=0.001)
@@ -61,6 +65,7 @@ EXPLORATORY DATA ANALYSIS (EDA)
 3. Adadelta(lr=0.001)
 4. (default)
 5. adam
+6. Adam (lr=0.0005), lr_scheduler.EXponentialLR(LR_DECAY=0.9)
 
 ## Criterion
 1. binary_cross_entropy_with_logits
@@ -68,13 +73,17 @@ EXPLORATORY DATA ANALYSIS (EDA)
 3. binary_cross_entropy_with_logits
 4. (default)
 5. binary_crossentropy
+6. binary_cross_entropy_with_logits
 
 ## Accuracy (Train/Validate): 
 1.
 2.
 3.
-4. 0.7030
-5. 
+4. acc=0.7030
+5.
+6. auc=0.65
+
+
 
 # Reference:
 
@@ -83,4 +92,5 @@ EXPLORATORY DATA ANALYSIS (EDA)
 * [Brain Tumor EDA with score](https://www.kaggle.com/blade001/brain-tumor-eda-with-score)
 * [Brain Tumor 3D Multimodal CNN - All MRI Type](https://www.kaggle.com/michaelfumery/brain-tumor-3d-multimodal-cnn-all-mri-type/)
 * [🧠Brain Tumor - Transfert Learning - FLAIR - Kfold](https://www.kaggle.com/michaelfumery/brain-tumor-transfert-learning-flair-kfold)
+* [Monai - ensemble](https://www.kaggle.com/mikecho/rsna-miccai-monai-ensemble/notebook)
 * [Meeting Minutes on Google Doc](https://docs.google.com/document/d/1po9hrZAp04lbLL3IngvLaURMMgkMC6j_7K1OG1VMwKI/edit)
