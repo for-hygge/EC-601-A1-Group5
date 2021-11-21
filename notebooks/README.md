@@ -43,6 +43,7 @@ EXPLORATORY DATA ANALYSIS (EDA)
 3. 10 Uniformly distributed slices across the 3D image
 4. Middle 24 images
 5. Middle 64 images
+6. eqaully distributed 64 images
 
 ## Image resizing
 1. 256x256
@@ -50,6 +51,7 @@ EXPLORATORY DATA ANALYSIS (EDA)
 3. 256x256
 4. 120x120
 5. 240x240
+6. 256x256
 
 ## Model
 1. efficientnet-b0
