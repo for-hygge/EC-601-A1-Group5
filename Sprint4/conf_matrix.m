@@ -15,7 +15,7 @@ realtest = readmatrix("newtest_data.csv");
 % get the prediction matrix of testset
 fprintf("==== Loading real labels of testset.\n");
 % change the filename for different model
-predict = readmatrix("TT_Model1_EffNetPytorch.csv");
+predict = readmatrix("TT_Model1__EffNetPytorch.csv");
 
 %% we set the threshold to 0.5 to build a confusion matrix
 % predict value <= 0.5, then labeled as 0, otherwise 1
