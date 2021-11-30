@@ -1,5 +1,5 @@
 # Sprint 4 -  Group 5: RSNA-MICCAI Brain Tumor Radiogenomic Classification
-This is the Sprint 4 of the project. In this Sprint, we are committed to test six models we trained in Sprint 3. 
+This is the Sprint 4 of the project. In this Sprint, we are committed to test the models we trained in Sprint 3. 
 Then, we focused on the analysis of the results and tried to conclude which model is the best. 
 
 ## Reconstruct Dataset
@@ -14,6 +14,7 @@ We learned that in competition, there are 585 training data samples and 87 test 
 In order to evaluate our models, we re-split the training dataset which is labeled with the same ratio to construct a new dataset. Thus, we write a matlab function (re_split.m) to randomly select 76 (13% x 585) data from the training set as a test set (newtest_data.csv).
 
 ## ROC Curve Method
+- conf_matrix.m
 > A receiver operating characteristic curve, or ROC curve, is a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied. The ROC curve is created by plotting the true positive rate (TPR) against the false positive rate (FPR) at various threshold settings.
 - condition positive (P): 
 The number of real positive cases in the data
@@ -27,6 +28,8 @@ A test result which wrongly indicates that a particular condition or attribute i
 > AUC stands for "Area under the ROC Curve." That is, AUC measures the entire two-dimensional area underneath the entire ROC curve (think integral calculus) from (0,0) to (1,1). AUC ranges in value from 0 to 1. A model whose predictions are 100% wrong has an AUC of 0.0; one whose predictions are 100% correct has an AUC of 1.0.
 
 In the competition, the higher the AUC value, the higher the score of the paricipant. And the value of threshold changes in steps of 0.1 between 0-1. When the prediction result is greater than threshold, our prediction label is 1, otherwise it is 0.
+
+## WORK IN PROGRESS...
 
 
 
