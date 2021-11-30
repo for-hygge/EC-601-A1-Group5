@@ -81,7 +81,7 @@ EXPLORATORY DATA ANALYSIS (EDA)
 1.
 2.
 3.
-4. acc=0.7030
+4. training acc=0.7030
 5.
 6. auc=0.65
 
