@@ -9,9 +9,9 @@ Then, we focused on the analysis of the results and tried to conclude which mode
 Our project is based on a kaggle competition which has closed already. However, in the process of testing, we find that the competition only offers unlabeled 
 test dataset. In other words, we can not get the real labels of the test dataset to evaluate our predications.</br>
 With reading notes of other participants in detail, we learn that, in competition, each participant use their own trained model to get the predication of test set which is a value between 0 and 1. 
-They need to submit the result of the test set and then, the competition holder/reviewer will use the real labels and apply the ROC curve method to evaluate the result of each participant.</br>
-We learned that in competition, there are 585 training data samples and 87 test data samples. There are 672 data in total, 13% of which are test samples. 
-In order to evaluate our models, we re-split the training dataset which is labeled with the same ratio to construct a new dataset. Thus, we write a matlab function (re_split.m) to randomly select 76 (13% x 585) data from the training set as a test set (newtest_data.csv).
+They need to submit the result of the test set and then, the competition holder/reviewer will use the real test labels to evaluate the result of each participant by the ROC curve method.</br>
+In addition, there are 585 training data samples and 87 test data samples in the competition dataset. There are 672 data in total, 13% of which are test samples. 
+In order to evaluate our models, we re-split the training dataset which is labeled, with the same ratio to construct a new dataset. Thus, we write a matlab function (re_split.m) to randomly select 76 (13% x 585) data from the training set as a test set (newtest_data.csv). The rest is the new training set (newtrain_data.csv).
 
 ## ROC Curve Method
 - conf_matrix.m
