@@ -29,7 +29,12 @@ EXPLORATORY DATA ANALYSIS (EDA)
 5. KFold(n_splits=5,shuffle=True)
 6. Exclude 3 sample, train_test_split(test_size=0.2)
 
-## MRI Technology
+## MRI Imaging Sequence
+* FLAIR: Fluid Attenuated Inversion Recovery
+* T1: longitudinal relaxation time
+* T2: transverse relaxation time
+* -w: weighted
+* -CE: contrast-enhanced
 1. FLAIR, T1w, T1wCE
 2. FLAIR
 3. FLAIR, T1w, T1wCE
