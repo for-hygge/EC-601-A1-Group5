@@ -60,7 +60,7 @@ EXPLORATORY DATA ANALYSIS (EDA)
 
 ## Model
 1. efficientnet-b0
-2. efficientnet in keras?
+2. efficientnet in keras
 3. efficientnet-b0
 4. 4-input CNN model
 5. ResNet50 (LSTM)
@@ -82,15 +82,15 @@ EXPLORATORY DATA ANALYSIS (EDA)
 5. binary_crossentropy
 6. binary_cross_entropy_with_logits
 
-## Accuracy (Train/Validate): 
-1.
-2.
-3.
-4. training acc=0.7030
-5. 
-6. auc=0.65
+## Accuracy / auc: 
+1. accuracy = 0.5263, auc = 0.5291
+2. accuracy = 0.5263, auc = 0.5291
+3. accuracy = 0.5263, auc - 0.5291
+4. accuracy = 0.5, acc = 0.4439
+5. accuracy = 0.6184, auc = 0.6565
+6. accuracy = 0.5, auc = 0.5796
 
-
+* case 1,2,3 use almost the same method, so they have the same accuracy and auc.
 
 # Reference:
 
