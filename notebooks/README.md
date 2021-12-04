@@ -1,4 +1,4 @@
-# Some Example from Kaggle
+# Some open-source projects from Kaggle
 
 Paths and libraries adjusted for [SCC](https://scc-ondemand.bu.edu/)
 
@@ -93,11 +93,12 @@ EXPLORATORY DATA ANALYSIS (EDA)
 * case 1,2,3 use almost the same method, so they have the same accuracy and auc.
 
 # Reference:
-
+These are links of open-source projects.
 * [🧠Brain Tumor🧠 - EDA with Animations and Modeling](https://www.kaggle.com/ihelon/brain-tumor-eda-with-animations-and-modeling)	
 * [🧠Brain Tumor 3D Training](https://www.kaggle.com/ammarnassanalhajali/brain-tumor-3d-training)
 * [Brain Tumor EDA with score](https://www.kaggle.com/blade001/brain-tumor-eda-with-score)
 * [Brain Tumor 3D Multimodal CNN - All MRI Type](https://www.kaggle.com/michaelfumery/brain-tumor-3d-multimodal-cnn-all-mri-type/)
 * [🧠Brain Tumor - Transfert Learning - FLAIR - Kfold](https://www.kaggle.com/michaelfumery/brain-tumor-transfert-learning-flair-kfold)
 * [Monai - ensemble](https://www.kaggle.com/mikecho/rsna-miccai-monai-ensemble/notebook)
+Here is a meeting record.
 * [Meeting Minutes on Google Doc](https://docs.google.com/document/d/1po9hrZAp04lbLL3IngvLaURMMgkMC6j_7K1OG1VMwKI/edit)
