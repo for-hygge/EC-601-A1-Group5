@@ -12,8 +12,11 @@ If you want more details about this competition, please [click here](https://www
     * Tian Tan  tiant@bu.edu
     * Lu Yao  ly21@bu.edu
     * Ruei-Yang Huang  ryh66@bu.edu
-* Repository Content
-    * 
+* Process record:  
+    * Meeting record
+    [Meeting Minutes on Google Doc](https://docs.google.com/document/d/1po9hrZAp04lbLL3IngvLaURMMgkMC6j_7K1OG1VMwKI/edit)  
+    * [Slides]() for sprint 1
+    Reporter: Lu Yao
 
 
 * 0.2
